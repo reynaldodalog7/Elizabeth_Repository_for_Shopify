@@ -12,10 +12,9 @@
     {{ 'application.css' | asset_url | stylesheet_tag }}
     {{ 'application.js' | asset_url | script_tag }}
   </head>
-  <body>
+  <body class="bg-red-900 text-xl">
     <main role="main">
-    <h1 style="text-align: center;">Hello-reynaldo</h1>
-      {{ content_for_layout }}
+          {{ content_for_layout }}
     </main>
   </body>
 </html>
