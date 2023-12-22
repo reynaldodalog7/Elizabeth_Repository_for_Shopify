@@ -6,6 +6,12 @@
         <h1 class="text-xl font-bold truncate">{{shop.name }}</h1>
       </div>
 
+      <div class="-mr-2 -my-2 ml-3 md:hidden">
+        <button type="button" class="bg-white p-2 inline-flex items-center justify-center focus:outline-none">
+            INSERT ICON HERE
+        </button>
+      </div>
+
       <!-- NAVIGATION MENU -->
       <nav x-data="{ open: false }" class="hidden md:flex space-x-10">
         {% for link in linklists.main-menu.links %}
